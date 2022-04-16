@@ -101,21 +101,21 @@ function putarGambar() {
 
 function noteComp() {
   const text = Math.random();
-  if (text < 0.2) return "Better luck next time (ndak bisa basa enggres)";
-  else if (text >= 0.2 && text < 0.4) return "BISA YOK!";
-  else if (text >= 0.4 && text < 0.6) return "Masa menyerah sih?";
-  else if (text >= 0.6 && text < 0.8) return "BGST lu wahai Computer!";
+  if (text < 0.2) return "Yahahaha kalah sama animek";
+  else if (text >= 0.2 && text < 0.4) return "YOK BISA YOK!";
+  else if (text >= 0.4 && text < 0.6) return "CCTLAH?";
+  else if (text >= 0.6 && text < 0.8) return "Kalah kok sama BOT!";
   return "Ya nggak tau, kok tanya saya..";
 }
 
 function notePlayer() {
   const text = Math.random();
-  if (text < 0.2) return "GG Gaming!";
+  if (text < 0.2) return "Menang lawan bot bangga";
   else if (text >= 0.2 && text < 0.4)
     return "*(playing NCS Safe and Sound Music)*";
   else if (text >= 0.4 && text < 0.6)
-    return "Computernya kena mental (emote batu)";
-  else if (text >= 0.6 && text < 0.8) return "To the moon!";
+    return "EZ dek";
+  else if (text >= 0.6 && text < 0.8) return "Yhahahah hayuk";
   return "hmm... INTERESTING!";
 }
 
